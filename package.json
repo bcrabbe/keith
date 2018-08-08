@@ -1,0 +1,23 @@
+{
+  "name": "keith",
+  "version": "1.0.0",
+  "description": "proxy backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node  --experimental-modules  server.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "."
+  },
+  "author": "bcrabbe",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.2.0",
+    "restify": "^7.2.1",
+    "restify-cors-middleware": "^1.1.1",
+    "restify-errors": "^6.1.1",
+    "ultimate-guitar-scraper": "^1.0.2"
+  }
+}
